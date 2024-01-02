@@ -58,7 +58,7 @@ const login=expressAsyncHandler(async(req,res)=>{
            return res.status(400).json("Enter all details");
         }
         if(! isValidEmail(email)){
-            return res.status(400).json("email is not valid\n")
+            return res.status(400).json("email is not valid")
         }
         if(!isValidPassword(password)){
             return res.status(400).json("your password input doesn't meet the expection")
