@@ -76,10 +76,6 @@ After validating  this the system will delete the particular  **Note**
 It will print all the **Note** that is posted by logged in user.
 if he/she has not been post any **Note** then it will print a message that **you have not post/create any Note**
 
-## Switch to another file
-
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
-
 ## Create a file
 
 create a **.env** file and in this file store 3 things 
