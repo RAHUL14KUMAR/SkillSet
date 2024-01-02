@@ -35,7 +35,7 @@ It will print the information about the logged in user,
 
 **1_Note create endpoints -> /note/**
 
-By passing Title and Content as a body, Note has been recorded in the database.
+By validating whether the title and content is passed or not. if **passing** Note has been recorded in the database by print all the details that logged in user have put in the **Note**.
 
 ///////////////////
 **2_GetAllNote endpoints -> /note**
